@@ -1,11 +1,11 @@
 {
-  "name": "@weareathlon/frontend-webpack-boilerplate",
+  "name": "silver-tribble",
   "version": "3.2.0",
   "description": "Webpack based boilerplate with SASS and babel ES6/7 support.",
-  "homepage": "https://github.com/WeAreAthlon/frontend-webpack-boilerplate#readme",
+  "homepage": "https://github.com/chaurasiyaumesh9/silver-tribble.git#readme",
   "scripts": {
     "build": "webpack --mode=development",
-    "watch": "webpack --mode=development --watch",
+    "watch": "webpack-dev-server --mode=development --watch",
     "bundle": "npm install && npm run watch",
     "production": "cross-env NODE_ENV=production webpack --mode=production",
     "lint-sass": "sass-lint -v -q --format=compact",
@@ -17,22 +17,17 @@
     "template",
     "setup"
   ],
-  "author": "WeAreAthlon <hello@weareathlon.com> (https://www.weareathlon.com)",
+  "author": "UMESH CHAURASIYA",
   "contributors": [
     {
-      "name": "Plamen Nikolov",
-      "email": "me@pnikoloff.com",
-      "url": "https://pnikoloff.com"
+      "name": "Umesh C",
+      "email": "chaurasiyaumesh9@gmail.com"
     }
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:WeAreAthlon/frontend-webpack-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/WeAreAthlon/frontend-webpack-boilerplate/issues",
-    "email": "plamen@athlonsofia.com"
+    "url": "https://github.com/chaurasiyaumesh9/silver-tribble.git"
   },
   "engines": {
     "node": ">=8.9.0"

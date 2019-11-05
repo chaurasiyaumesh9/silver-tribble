@@ -68,9 +68,10 @@ const config = {
     contentBase: path.join(__dirname, 'dist'),
     disableHostCheck: true,
     host: '127.0.0.1',
+    publicPath: '/',
     liveReload: true,
     open: true,
-    port: 8080
+    port: process.env.PORT || 3000
   },
   plugins: [
     // new BrowserSyncPlugin({
