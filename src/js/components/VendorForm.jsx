@@ -4,9 +4,9 @@ class VendorForm extends Component {
   render() {
     return (
       <div className="container">
-        <div className="jumbotron text-center">
+        {/* <div className="jumbotron text-center">
           <h1> Local Mart Merchant form</h1>
-        </div>
+        </div> */}
         <form
           onSubmit={() => {
             console.log("clicked");
@@ -159,6 +159,66 @@ class VendorForm extends Component {
               <div className="form-group">
                 <label htmlFor="contact3"> Contact#3 </label>
                 <input type="text" className="form-control" id="contact3" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-email">Email</label>
+                <input className="form-control" type="text" id="txt-email" />
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-voterid">*Voter ID</label>
+                <input className="form-control" type="text" id="txt-voterid" />
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-panid">*PAN No.</label>
+                <input className="form-control" type="text" id="txt-panid" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-aadharid">Aadhar No.</label>
+                <input className="form-control" type="text" id="txt-aadharid" />
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-drivingid">Driving License No.</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="txt-drivingid"
+                />
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-gpslocation">*GPS Location</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="txt-gpslocation"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label htmlFor="txt-licenseid">*License Number(VVMC)</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="txt-licenseid"
+                />
               </div>
             </div>
           </div>

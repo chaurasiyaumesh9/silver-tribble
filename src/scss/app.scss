@@ -1,28 +1,29 @@
-@import 'base/reset';
+@import "base/reset";
+$border-radius: 0;
 @import "~bootstrap/scss/bootstrap";
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts'; 
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/regular';
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
 
 /* Core variables */
-@import 'base/vars';
+@import "base/vars";
 
 /* CSS print */
-@import 'base/print';
+@import "base/print";
 
 /* Fonts */
-@import 'base/fonts';
+@import "base/fonts";
 
 /* Mixins, helpers and functions */
-@import 'base/mixins';
+@import "base/mixins";
 
 /* Vendor */
 
 /* Components */
 
 /* Browser specific styles */
-@import 'dirty/hacks';
+@import "dirty/hacks";
 
 /* Demo styles */
 /*
