@@ -76,6 +76,17 @@ const config = {
     ]
   },
   optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          // this takes care of all the vendors in your files
+          // no need to add as an entrypoint.
+          test: /[\\/]node_modules[\\/]/,
+          name: "vendors",
+          chunks: "all"
+        }
+      }
+    },
     minimizer: [
       new TerserPlugin({
         parallel: true
