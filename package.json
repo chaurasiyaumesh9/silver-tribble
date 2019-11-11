@@ -4,7 +4,12 @@
   "description": "Webpack based boilerplate with SASS and babel ES6/7 support.",
   "homepage": "https://github.com/chaurasiyaumesh9/silver-tribble.git#readme",
   "scripts": {
-    "start": "webpack --mode=development",
+    "devserver": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "heroku-postbuild": "webpack -p",
+    "startserver": "node server.js",
+    "start": "webpack -p --progress && node server.js",
+    "dev": "webpack-dev-server",
     "watch": "webpack-dev-server --mode=development --watch",
     "bundle": "npm install && npm run watch",
     "lint-sass": "sass-lint -v -q --format=compact",
@@ -36,7 +41,11 @@
     "autoprefixer": "^9.6.1",
     "bootstrap": "4.3.1",
     "jquery": "3.4.1",
-    "popper.js": "1.16.0"
+    "popper.js": "1.16.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "@babel/core": "7.7.2",
