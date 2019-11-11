@@ -1,8 +1,11 @@
-import '../scss/app.scss';
-import 'bootstrap';
-import '@fortawesome/fontawesome-free/js/fontawesome';
-import '@fortawesome/fontawesome-free/js/solid';
-import '@fortawesome/fontawesome-free/js/regular';
-import '@fortawesome/fontawesome-free/js/brands';
+import React, { Component } from "react";
 
-// Your JS Code goes here
+import VendorForm from "./components/VendorForm.jsx";
+
+class App extends Component {
+  render() {
+    return <VendorForm />;
+  }
+}
+
+export default App;
