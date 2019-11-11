@@ -4,10 +4,8 @@
   "description": "Webpack based boilerplate with SASS and babel ES6/7 support.",
   "homepage": "https://github.com/chaurasiyaumesh9/silver-tribble.git#readme",
   "scripts": {
-    "dev": "webpack --mode=development",
+    "start": "webpack --mode=development",
     "watch": "webpack-dev-server --mode=development --watch",
-    "watch": "webpack-dev-server --mode=development --watch",
-    "bundle": "npm install && npm run watch",
     "bundle": "npm install && npm run watch",
     "lint-sass": "sass-lint -v -q --format=compact",
     "lint-js": "eslint --ext .js src/js/"
