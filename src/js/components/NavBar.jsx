@@ -4,8 +4,8 @@ class NavBar extends Component {
   state = {};
   render() {
     return (
-      <div className="container mb-5">
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+      <div className="container mb-2">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           {/* <a className="navbar-brand" href="#">
             <b>
               <i className="fab fa-adobe"></i> LOCALMART.IN
