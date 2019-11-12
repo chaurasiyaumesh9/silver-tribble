@@ -85,6 +85,7 @@ const config = {
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
+    historyApiFallback: true,
     disableHostCheck: true,
     host: "127.0.0.1",
     publicPath: "/",

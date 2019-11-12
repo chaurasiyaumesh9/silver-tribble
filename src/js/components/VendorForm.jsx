@@ -3,7 +3,7 @@ class VendorForm extends Component {
   state = {};
   render() {
     return (
-      <div className="container">
+      <div className="container" style={{ display: "none" }}>
         {/* <div className="jumbotron text-center">
           <h1> Local Mart Merchant form</h1>
         </div> */}

@@ -1,17 +1,13 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import VendorForm from "./components/VendorForm.jsx";
-import NavBar from "./components/NavBar.jsx";
+import Container from "./components/Container.jsx";
 
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <NavBar />
-        <VendorForm />
-      </Fragment>
-    );
-  }
-}
-
+const App = () => {
+  return (
+    <Router>
+      <Container />
+    </Router>
+  );
+};
 export default App;
